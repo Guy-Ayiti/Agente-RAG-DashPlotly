@@ -1,13 +1,13 @@
-<h1 align="left">Project : RAG Agent with Langchain and Pinecone</h1>
+<h3 align="left">Project : RAG Agent with Langchain and Pinecone</h3>
 
 ###
 
-<p align="left">Project where a RAG agent answers questions based on a pdf document embedded inside Pinecone.
+<p align="left">AI Engineer project using <i>Dash-Plotly</i> python library to create a dashboard that allows us to interactively chat with an Agent. The interface provides the functionality to upload any pdf document, that will be processed and stored in a vector database called Pinecone for further retrieval by a RAG system programmed with OpenAI and Langchain. This RAG system allows the user to interact with the chatbot, where the context is only about the information available in the uploaded pdf file.
 </p>
 
 ###
 
-<h2 align="left">RAG Agent</h2>
+<h4 align="left">RAG Agent</h4>
 
 ###
 
