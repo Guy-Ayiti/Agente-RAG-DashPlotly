@@ -32,21 +32,5 @@ EXPOSE 8080
 
 # 7. Comando para ejecutar la aplicación en producción.
 # Este es el comando que se ejecutará cuando el contenedor se inicie.
-ENTRYPOINT ["streamlit", "run", "main.py", "--server.port=8080", "--server.address=0.0.0.0"]
+ENTRYPOINT ["python", "Dash-app.py", "--server.port=8080", "--server.host=0.0.0.0"]
 
-#===========================================================================================#
-
-#FROM python:3.11-slim
-
-#WORKDIR /app
-
-#COPY . /app
-
-#RUN pip install -r requirements.txt
-
-#EXPOSE 8000
-
-#CMD streamlit run --server.port 8000 --server.address=0.0.0.0 /app/application/main.py
-
-
-#===========================================================================================#

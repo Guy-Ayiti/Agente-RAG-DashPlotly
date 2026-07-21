@@ -1,8 +1,5 @@
 import os
-import uuid
-import time
 import base64
-import asyncio
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -12,13 +9,13 @@ import dash_bootstrap_components as dbc
 
 
 # import pinecone
-from pinecone import Pinecone, ServerlessSpec
+from pinecone import Pinecone
 
 # import langchain
 from langchain_pinecone import PineconeVectorStore
 from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
+#from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 
 from Ingestion import IngestData
 from Retrieval import RetrieveData
@@ -240,7 +237,10 @@ def update_chat(n_clicks, question, history): #, top_k):
 #                      Run
 #============================================
 if __name__ == "__main__":
-    app.run(debug=True)
+    #app.run(debug=True)
+    port = int(os.environ.get("PORT", 8080))    
+    app.run(debug=False, host="0.0.0.0", port=port)  # You MUST bind to 0.0.0.0 to accept external traffic
+
 
 
 
