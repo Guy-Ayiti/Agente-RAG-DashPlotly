@@ -1,1 +1,5 @@
-Proyecto desarrollado con apoyo del canal Youtube : CharmingData y Tech_with_Tim
+Proyecto desarrollado con apoyo de los canales de Youtube siguientes : 
+1.- CharmingData
+2.- Tech with Tim
+3.- Thomas Janssen
+4.- DataPath.
