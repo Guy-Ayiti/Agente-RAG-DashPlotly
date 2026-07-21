@@ -21,10 +21,20 @@
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original-wordmark.svg" height="40" />
-  <img width="30" />
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/python/default.svg" height="20" alt="OpenAI" />
+  <img width="10" />  
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/plotly/default.svg" height="20" alt="OpenAI" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/openai/wordmark-light.svg" height="20" alt="OpenAI" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/langchain/lockup.svg" height="20" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/pinecone/default.svg" height="20" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/docker/wordmark.svg" height="20" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/google-cloud/default.svg" height="20" />
+  <img width="10" />
 </div>
 
 ###
