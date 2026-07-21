@@ -140,7 +140,7 @@ app.layout = dbc.Container(fluid=True, children=[
                 #dbc.Button("Enviar", id="send-btn", style={"backgroundColor":"darkorange", "border": "none"}, className="mt-2")
             ], style={'marginLeft':'50px', 'marginRight':'50px'}),
         ])
-    ]) #, style={"border": "2px solid black","padding": "10px", "borderWidth": "100px"}
+    ]) # , style={"border": "2px solid black","padding": "10px", "borderWidth": "30px"}
 ])
 
 
