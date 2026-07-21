@@ -7,11 +7,11 @@
 
 ###
 
-<h2 align="left">Insights</h2>
+<h2 align="left">RAG Agent</h2>
 
 ###
 
-![alt text](https://github.com/Guy-Ayiti/DataScience-Cluster-Prediction/blob/main/Dashboard_Interfaz.png)
+![alt text](https://github.com/Guy-Ayiti/Agente-RAG-DashPlotly/blob/main/Dashboard-Interfaz.png)
   
 
 ###
