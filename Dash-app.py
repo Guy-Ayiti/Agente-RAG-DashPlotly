@@ -76,6 +76,16 @@ app.layout = dbc.Container(fluid=True, children=[
             html.Br(),
             html.Br(),
 
+            html.Div( [ html.Img(src="assets/robot-head.png", style={"width": "10%"})], 
+                                 style={"display": "flex", 
+                                        "justifyContent": "center", 
+                                        "alignItems": "center"}),
+            html.Br(),                                        
+            html.H1("Agente RAG", style={"fontSize": "20px", 'textAlign': 'center', "fontWeight": "bold"}),
+            html.Br(),
+            html.Hr(),
+            html.Br(),
+
             html.Div(TEXTO_BIENVENIDA, style={"borderRadius":"10px",
                                               "padding": "10px",
                                               "color":"#0043DA", #"fontWeight": "bold", 
@@ -106,12 +116,13 @@ app.layout = dbc.Container(fluid=True, children=[
             html.Br(),
             dbc.Row([
                 dbc.Col(width=3, children=[
-                    html.Div([ html.Img(src="assets/robot.png", style={"width": "50%"})], 
+                    html.Div([ html.Img(src="assets/robot.png", style={"width": "30%"})], 
                                style={"display": "flex", "justifyContent": "left", "alignItems": "left"}),
                 ]),
                 dbc.Col([
                     html.H1("Conversación con Agente🔻", 
-                            style={"fontSize": "20px", 'textAlign': 'left', "marginTop": "60px"}),
+                            style={"fontSize": "20px", "color":"steelblue", 
+                                   'textAlign': 'left', "marginTop": "60px", "marginLeft": "50px"}),
                 ]),
                 #html.Hr(),
             ], style={'marginLeft':'50px', 'marginRight':'50px'}),
@@ -129,7 +140,7 @@ app.layout = dbc.Container(fluid=True, children=[
                 #dbc.Button("Enviar", id="send-btn", style={"backgroundColor":"darkorange", "border": "none"}, className="mt-2")
             ], style={'marginLeft':'50px', 'marginRight':'50px'}),
         ])
-    ])
+    ]) #, style={"border": "2px solid black","padding": "10px", "borderWidth": "100px"}
 ])
 
 
