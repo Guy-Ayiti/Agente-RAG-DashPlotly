@@ -1,5 +1,6 @@
 .env
 .gitignore
+.vscode
 _Archives
 _Knowledge_Base
 
