@@ -7,7 +7,7 @@
 
 ###
 
-<h4 align="left">RAG Agent</h4>
+<h3 align="left">RAG Agent</h3>
 
 ###
 
@@ -16,7 +16,7 @@
 
 ###
 
-<h2 align="left">Technologias usadas:</h2>
+<h3 align="left">Technologias usadas:</h3>
 
 ###
 
