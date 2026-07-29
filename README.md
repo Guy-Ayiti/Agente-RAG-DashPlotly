@@ -11,7 +11,9 @@
 
 ###
 
-![alt text](https://github.com/Guy-Ayiti/Agente-RAG-DashPlotly/blob/main/assets/Dashboard-Interfaz.png)
+<p align="center">
+  <img src=https://github.com/Guy-Ayiti/Agente-RAG-DashPlotly/blob/main/assets/Dashboard-Interfaz.png width="600">
+</p>
   
 
 ###
