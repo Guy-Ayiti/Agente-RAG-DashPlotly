@@ -1,4 +1,4 @@
-<h1 align="left">Project : RAG Agent with Langchain and Pinecone</h1>
+<h2 align="left">Project : RAG Agent with Langchain and Pinecone</h2>
 
 ###
 
@@ -11,7 +11,7 @@
 
 ###
 
-<p align="center">
+<p>
   <img src=https://github.com/Guy-Ayiti/Agente-RAG-DashPlotly/blob/main/assets/Dashboard-Interfaz.png width="600">
 </p>
   
