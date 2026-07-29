@@ -1,4 +1,4 @@
-<h3 align="left">Project : RAG Agent with Langchain and Pinecone</h3>
+<h1 align="left">Project : RAG Agent with Langchain and Pinecone</h1>
 
 ###
 
@@ -7,7 +7,7 @@
 
 ###
 
-<h3 align="left">RAG Agent</h3>
+<h2 align="left">RAG Agent</h2>
 
 ###
 
@@ -16,7 +16,7 @@
 
 ###
 
-<h3 align="left">Technologies used:</h3>
+<h2 align="left">Technologies used:</h2>
 
 ###
 
